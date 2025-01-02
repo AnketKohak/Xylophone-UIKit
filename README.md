@@ -1,59 +1,44 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+# Xylophone 🎶
 
-# Xylophone
+A simple and fun musical app that lets you play the xylophone directly on your iOS device! This project is built using **UIKit** and **AVFoundation** to deliver an engaging user experience.
 
-## Our Goal
+## Features
+- Interactive xylophone keys with unique sounds for each note.
+- Smooth and responsive UI using **UIKit**.
+- High-quality audio playback powered by **AVFoundation**.
 
-The goal of this tutorial is to dive into a simple iOS recipe - how to play sound and use an Apple library called AVFoundation. The most important skill of a great programmer is being able to solve your own problems. We’ll do that by exploring StackOverflow, Apple Documentation and learning how to search for solutions effectively. By learning to use these tools, you’ll be able to start adding custom features to an app and get it to do what you want it to.
-
-
-## What you will create
-
-You will be making your first musical instrument! Music apps are so popular on the App Store that they even get their own category. So in this module, we’re going to make a colourful XyloPhone app. Get it? Ok, the jokes are bad, but remember, I only wrote the good ones... 
-
-## What you will learn
-
-* How to play sound using AVFoundation and AVAudioPlayer.
-* Understand Apple documentation and how to use StackOverflow.
-* Functions and methods in Swift. 
-* Data types.
-* Swift loops.
-* Variable scope.
-* The ViewController lifecycle.
-* Error handling in Swift.
-* Code refactoring.
-* Basic debugging.
-
-## Replacement Code
-
-```
-import UIKit
-import AVFoundation
-
-class ViewController: UIViewController {
-    
-    var player: AVAudioPlayer!
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
-    @IBAction func keyPressed(_ sender: UIButton) {
-        playSound()
-    }
-    
-    func playSound() {
-        let url = Bundle.main.url(forResource: "C", withExtension: "wav")
-        player = try! AVAudioPlayer(contentsOf: url!)
-        player.play()
-                
-    }
-}
-```
+## Demo
+[Include a photo and video demo here when ready.]
 
 
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+https://github.com/user-attachments/assets/2810f383-6ca8-47f6-986d-22167dc3404c
 
-![End Banner](Documentation/readme-end-banner.png)
 
+
+
+
+## Technologies Used
+- **UIKit**: For building the user interface.
+- **AVFoundation**: For handling audio playback.
+
+## Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/AnketKohak/Xylophone-UIKit.git
+2. Open the project in Xcode.  
+3. Build and run on your simulator or iOS device.  
+
+## How It Works  
+- Each key on the xylophone is a button configured to play a specific note.  
+- **AVFoundation**’s `AVAudioPlayer` is used to play sound files corresponding to the selected note.  
+
+## Preview  
+[Add a screenshot or video link of the app in action.]  
+
+## Contributing  
+Contributions are welcome!  
+Feel free to fork this repository and submit a pull request with improvements.  
+
+## License  
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.  
