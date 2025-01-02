@@ -8,14 +8,8 @@ A simple and fun musical app that lets you play the xylophone directly on your i
 - High-quality audio playback powered by **AVFoundation**.
 
 ## Demo
-[Include a photo and video demo here when ready.]
-
-
 
 https://github.com/user-attachments/assets/2810f383-6ca8-47f6-986d-22167dc3404c
-
-
-
 
 
 ## Technologies Used
